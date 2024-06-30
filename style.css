@@ -25,13 +25,18 @@ a:link {
 	text-decoration: underline;
 }
 
-a:visited {
-	color: brown;
-	background-color: transparent;
-	text-decoration: underline;
+.mainDetails a, a.external {
+	color: #222; 
+	text-decoration: none;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
 }
 
-.mainDetails a, a[href^=tel], a#return-top, a.external {
+.mainDetails a[href^=tel], a#return-top {
 	color: #444; 
 	text-decoration: none;
 	text-decoration: none;
@@ -69,7 +74,7 @@ p {
 	font-size: .95em;
 	line-height: 1.4em;
 	margin-bottom: 24px;
-	color: #444;
+	color: #222;
 }
 
 ul li {
@@ -229,6 +234,7 @@ article {
 	font-size: 0.85em;
 	font-style: italic;
 	margin-bottom: 3px;
+	color: #444;
 }
 
 .keySkills {
@@ -238,7 +244,7 @@ article {
 	column-count:2;
 	margin-bottom: 20px;
 	font-size: 1em;
-	color: #444;
+	color: #222;
 }
 
 .keySkills ul li {
